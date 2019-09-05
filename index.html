@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Hacking Club Chat</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Comment Section-->
+        <ul id="chatbox" class="comment-section">
+
+            <!-- Comment item-->
+            <li class="comment author-comment">
+                <div class="message-info">
+                    <a href="#">KorKux</a>
+                    <span>Hace 4 horas</span>
+                </div>
+
+                <a class="avatar" href="#">
+                    <img width="10" src="img/avatar.png" alt="User Avatar" title="KorKux">
+                </a>
+                
+                <p>Hola, enviame las respuestas del parcial de redes</p>
+            </li>
+            <!-- ./ Comment item-->
+
+            <!-- Comment item-->
+            <li class="comment user-comment">
+                    <div class="message-info">
+                        <a  href="#">Steven</a>
+                        <span>Hace 3 horas</span>
+                    </div>
+                    <a class="avatar" href="#">
+                        <img src="img/avatar2.png" alt="User Avatar" title="KorKux">
+                    </a>
+                    <p>La primera pregunta es sobre los niveles de OSI, pero no me se las respuesta </p>
+            </li>
+            <!-- ./ Comment item-->
+
+            <!-- Comment item-->
+            <li class="comment author-comment">
+                <div class="message-info">
+                    <a href="#">KorKux</a>
+                    <span>Hace 2 horas</span>
+                </div>
+                <a class="avatar" href="#">
+                    <img src="img/avatar.png" alt="User Avatar" title="KorKux">
+                </a>
+                <p>Dale, no hay lio yo la resuelvo y ahora te mando la respuesta</p>
+            </li>
+            <!-- ./ Comment item-->
+
+
+        </ul>
+        <ul  class="comment-section">
+            <li class="new-message">
+            
+                <div>
+                    <textarea id="messagebox" placeholder="Escribe un mensaje" name="comment"></textarea>
+                    <div>
+                        <img src="img/avatar.png">
+                        <button type="submit" onclick="sendmessage()">Enviar</button>
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+        <!-- ./Comment Section-->
+
+        <footer>
+            <a href="https://www.facebook.com/clubdehack1nghardware/">Club de Hacking Hardware </a> | Created by <a href="https://linkedin.com/in/cristhian-eduardo-castillo-meneses-8118a0158/">KorKux</a>
+        </footer>
+
+    </body>
+    <script src="form.js"></script>
+</html>
